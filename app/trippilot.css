@@ -1,0 +1,66 @@
+.tp {
+  --bg: #f6f7f9; --card: #ffffff; --text: #16181d; --muted: #6a7280; --line: #e2e5ea;
+  --brand: #0b6bcb; --brand-text: #ffffff; --ok: #14803c; --err: #b42318; --user: #e8f1fb;
+  min-height: 100vh; background: var(--bg); color: var(--text);
+  max-width: 760px; margin: 0 auto; padding: 16px; display: flex; flex-direction: column; gap: 12px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 16px; line-height: 1.45;
+}
+@media (prefers-color-scheme: dark) {
+  .tp { --bg: #111419; --card: #1a1f27; --text: #eceff4; --muted: #98a2b3; --line: #2a313c;
+        --brand: #4c9aff; --brand-text: #0b1220; --ok: #4ade80; --err: #f97066; --user: #1f3350; }
+}
+body { background: #f6f7f9; margin: 0; }
+@media (prefers-color-scheme: dark) { body { background: #111419; } }
+
+.tp h1, .tp h2 { margin: 0 0 4px; }
+.tp h2 { font-size: 1.05rem; }
+.tp-muted { color: var(--muted); }
+.tp-small { color: var(--muted); font-size: 0.8rem; }
+.tp-center { text-align: center; }
+.tp-error { color: var(--err); font-size: 0.9rem; margin-top: 6px; }
+.tp-ok { color: var(--ok); font-weight: 600; margin-top: 8px; }
+
+.tp button, .tp select, .tp input {
+  font: inherit; color: inherit;
+}
+.tp button {
+  background: var(--brand); color: var(--brand-text); border: 0; border-radius: 8px;
+  padding: 9px 14px; cursor: pointer; font-weight: 600;
+}
+.tp button:disabled { opacity: 0.5; cursor: not-allowed; }
+.tp .tp-link { background: none; color: var(--brand); padding: 4px 0; font-weight: 500; }
+.tp input, .tp select {
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px;
+}
+
+.tp-auth { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 24px; margin-top: 8vh;
+  display: flex; flex-direction: column; gap: 10px; }
+.tp-auth form { display: flex; flex-direction: column; gap: 10px; }
+
+.tp-header { display: flex; justify-content: space-between; align-items: center; }
+.tp-prefs { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; font-size: 0.9rem; }
+.tp-prefs label { display: flex; gap: 6px; align-items: center; }
+
+.tp-chat { flex: 1; display: flex; flex-direction: column; gap: 10px; min-height: 300px; }
+.tp-starters { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.tp .tp-chip { background: var(--card); color: var(--text); border: 1px solid var(--line); font-weight: 500; text-align: left; }
+
+.tp-msg { border-radius: 12px; padding: 10px 14px; max-width: 92%; }
+.tp-user { background: var(--user); align-self: flex-end; }
+.tp-bot { background: var(--card); border: 1px solid var(--line); align-self: flex-start; }
+.tp-text { margin: 0 0 6px; white-space: pre-wrap; }
+.tp-text:last-child { margin-bottom: 0; }
+.tp-tool { color: var(--muted); font-size: 0.8rem; margin: 2px 0; }
+
+.tp-card { border: 1px solid var(--brand); border-radius: 10px; padding: 12px; margin: 6px 0; background: var(--card); }
+.tp-card-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.tp-card-title { font-weight: 700; margin: 2px 0; }
+.tp-card button { margin-top: 10px; }
+
+.tp-input { display: flex; gap: 8px; }
+.tp-input input { flex: 1; }
+
+.tp-bookings { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.tp-bookings ul { margin: 6px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; font-size: 0.92rem; }
+.tp-badge { font-size: 0.7rem; text-transform: uppercase; border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; color: var(--muted); }
+.tp-badge-ok { color: var(--ok); border-color: var(--ok); }
