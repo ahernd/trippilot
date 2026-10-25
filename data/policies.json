@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Flight cancellation: within 24 hours of booking",
+    "content": "If you cancel a flight within 24 hours of booking and the departure is more than 7 days away, you get a full refund with no cancellation fee. The refund goes back to the original payment method within 5 to 7 working days."
+  },
+  {
+    "title": "Flight cancellation: more than 72 hours before departure",
+    "content": "If you cancel more than 72 hours before departure, a cancellation fee of INR 500 per passenger applies. The rest of the fare is refunded within 7 working days."
+  },
+  {
+    "title": "Flight cancellation: 24 to 72 hours before departure",
+    "content": "If you cancel between 24 and 72 hours before departure, the cancellation fee is 25 percent of the fare, with a minimum of INR 750 per passenger. The balance is refunded within 7 working days."
+  },
+  {
+    "title": "Flight cancellation: less than 24 hours before departure",
+    "content": "If you cancel less than 24 hours before departure, the cancellation fee is 50 percent of the fare. Cancellations less than 2 hours before departure are not refundable. Airport taxes that were not used are still refunded."
+  },
+  {
+    "title": "Flight refund timeline",
+    "content": "Approved flight refunds are processed within 7 working days. Refunds to UPI and debit cards usually arrive in 3 to 5 working days after processing. Refunds to credit cards can take up to 10 working days, depending on your bank."
+  },
+  {
+    "title": "Flight delay and airline-cancelled flights",
+    "content": "If the airline cancels your flight, you can choose a free rebooking on the next available flight or a full refund with no fee. If a flight is delayed by more than 3 hours, you can cancel for a full refund. For delays over 2 hours, the airline offers a meal voucher worth INR 300."
+  },
+  {
+    "title": "Changing a flight date or time",
+    "content": "You can change a flight date up to 12 hours before departure. A change fee of INR 400 per passenger applies, plus any difference in fare. Changes are allowed once per booking. After one change, you must cancel and book again."
+  },
+  {
+    "title": "Name correction on a flight booking",
+    "content": "A spelling mistake of up to 3 characters in a passenger name can be corrected for free if you contact support at least 24 hours before departure. A full name change to a different person is not allowed. For that, cancel the booking and book again."
+  },
+  {
+    "title": "Cabin baggage allowance",
+    "content": "Each passenger may carry one cabin bag of up to 7 kg. The bag must fit under the seat or in the overhead locker. Size limit is 55 cm x 35 cm x 25 cm. One small personal item, such as a laptop bag or handbag, is allowed in addition."
+  },
+  {
+    "title": "Checked baggage allowance",
+    "content": "The free checked baggage allowance on domestic flights is 15 kg per passenger. Extra baggage can be bought at the airport for INR 450 per kg, or online up to 4 hours before departure for INR 350 per kg. A single bag cannot exceed 32 kg."
+  },
+  {
+    "title": "Lost or damaged baggage",
+    "content": "Report lost or damaged baggage at the airline desk before leaving the airport, and within 24 hours of landing. Keep your baggage tag. Compensation for lost checked baggage is up to INR 350 per kg of the missing weight, up to a limit of INR 20,000."
+  },
+  {
+    "title": "Check-in and boarding times",
+    "content": "Web check-in opens 48 hours before departure and closes 2 hours before departure. Airport check-in counters close 60 minutes before departure. Boarding gates close 25 minutes before departure. Late passengers may be denied boarding and are treated as no-show."
+  },
+  {
+    "title": "Flight no-show",
+    "content": "If you miss your flight without cancelling, it is a no-show. No-show tickets are not refundable, except for unused airport taxes. If you know you will be late, contact support or the airline before departure to see if you can be moved to a later flight."
+  },
+  {
+    "title": "Children and infants on flights",
+    "content": "Infants under 2 years travel on an adult's lap at 10 percent of the adult fare and do not get a seat or a baggage allowance. Children aged 2 to 11 pay the full fare and get a seat. Every child under 12 must travel with an adult."
+  },
+  {
+    "title": "Travel documents and ID",
+    "content": "For domestic flights, every adult passenger must carry one valid photo ID, such as Aadhaar, passport, driving licence or voter ID. Children under 18 can travel on a school ID or birth certificate. A passenger without valid ID can be denied boarding with no refund."
+  },
+  {
+    "title": "Special assistance and medical needs",
+    "content": "Wheelchair, stretcher and special meal requests must be made at least 48 hours before departure. These services are free. Passengers who are pregnant beyond 32 weeks need a doctor's certificate to fly. Contact support to add a special request to your booking."
+  },
+  {
+    "title": "Hotel cancellation policy",
+    "content": "Hotel bookings can be cancelled free of charge up to 48 hours before check-in. Between 48 and 24 hours before check-in, the fee is the first night's rate. Within 24 hours of check-in, the fee is 100 percent of the first night. Refunds are processed within 7 working days."
+  },
+  {
+    "title": "Hotel no-show and early departure",
+    "content": "If you do not arrive and have not cancelled, the hotel charges the full first night, and the rest of the booking is cancelled. If you leave early, nights not stayed are not refunded unless you tell the hotel at check-in and the hotel agrees in writing."
+  },
+  {
+    "title": "Hotel check-in, check-out and extras",
+    "content": "Standard check-in time is 2 PM and check-out time is 11 AM. Early check-in and late check-out depend on availability and may cost up to 50 percent of one night's rate. An extra bed costs INR 800 per night. Children under 6 stay free using existing bedding."
+  },
+  {
+    "title": "Weather disruptions",
+    "content": "If heavy rain, fog or a storm causes the airline to cancel or reschedule your flight, you get a free rebooking or a full refund, with no cancellation fee. Hotels allow a free date change if your flight was cancelled because of weather. Keep the airline's cancellation message as proof."
+  }
+]
